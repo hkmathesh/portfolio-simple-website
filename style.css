@@ -1,0 +1,104 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    margin: 30px;
+}
+
+.profile{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.profile__contact{
+    background-color: orangered;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.profile > * {
+    margin-bottom: 10px;
+}
+
+.profile h1, h3{
+    font-weight: 900;
+}
+
+.about{
+    margin-top: 10px;
+}
+
+.interests{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+
+.interests ul{
+    list-style-type: none;
+}
+
+.projects{
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+}
+
+.projects ul{
+    list-style-type: none;
+}
+
+.socialmedia{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.socialmedia p{
+    padding: 5px;
+}
+
+.socialmedia a:link{
+    color: powderblue;
+}
+
+.socialmedia a:visited{
+    color: yellow;
+}
+
+.socialmedia a:hover{
+    color: green;
+}
+
+.socialmedia a:active{
+    color: blue;
+}
+
+@media screen and (max-width: 900px){
+    .middlecontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-top: 10px;
+    }
+}

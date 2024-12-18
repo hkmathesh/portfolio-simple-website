@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    margin: 30px;
+}
+
+/* Contact Header */
+.contact{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.contact__home{
+    background-color: orangered;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.contact > * {
+    margin-bottom: 10px;
+}
+
+.contact h1, h3{
+    font-weight: 900;
+}
+
+/* Form  */
+table td{
+    padding: 10px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+.submit__button{
+    background-color: orangered;
+    padding: 10px;
+}
+
+/* Social Media */
+.socialmedia{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.socialmedia p{
+    padding: 5px;
+}
+
+.socialmedia a:link{
+    color: powderblue;
+}
+
+.socialmedia a:visited{
+    color: yellow;
+}
+
+.socialmedia a:hover{
+    color: green;
+}
+
+.socialmedia a:active{
+    color: blue;
+}
